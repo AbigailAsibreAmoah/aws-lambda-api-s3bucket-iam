@@ -1,0 +1,19 @@
+@"
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.log
+*.tfvars
+*.tfplan
+*.zip
+*.exe
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+*.bak
+*.tmp
+"@ | Out-File -Encoding utf8 .gitignore
