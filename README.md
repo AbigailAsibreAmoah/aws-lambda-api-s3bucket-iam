@@ -1,8 +1,8 @@
-Serverless API with S3 Backend – AWS
+#Serverless API with S3 Backend – AWS
 
 A complete serverless infrastructure designed for API-based data collection, logging, and storage using AWS Lambda, API Gateway, and S3 — deployed and managed with Terraform.
 
-Architecture Overview
+#Architecture Overview
 Backend (AWS Serverless)
 
 Compute: AWS Lambda (Python 3.x)
@@ -17,7 +17,7 @@ Infrastructure as Code: Terraform (15+ AWS resources)
 
 Security: IAM roles, least-privilege policies, and API key authentication
 
-Features
+#Features
 Core Functionality
 
 Data Submission API: RESTful endpoints supporting GET and POST operations
